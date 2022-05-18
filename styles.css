@@ -1,0 +1,60 @@
+body {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-image: linear-gradient(to right, black, lightblue);
+}
+
+.board {
+    height: 500px;
+    width: 500px;
+    display: grid;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    padding: 2px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.black:hover {
+    background-color: black;
+    color: lightblue;
+    border-width: 1px;
+    border-radius: 10%;
+    border-color: lightblue;
+}
+
+.eraser:hover {
+    background-color: rgb(50, 50, 255);
+    color: black;
+    border-radius: 10%;
+    border-width: 1px;
+    border-radius: 10%;
+    border-color: black;
+}
+
+.random:hover{
+    background-color: linear-gradient(0.25turn, #f65cfc, white, blue);
+    color: black;
+    border-radius: 10%;
+    border-width: 1px;
+    border-radius: 10%;
+    border-color: black;
+}
+
+.mode {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
